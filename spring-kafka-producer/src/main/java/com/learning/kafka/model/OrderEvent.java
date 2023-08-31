@@ -13,8 +13,8 @@ public class OrderEvent {
 
 	private String message;
 	private String status;
-	private String orderId;
-	private String orderName;
+	private String client;
+	private String id;
 	private int quantity;
 	private double amount;
 }

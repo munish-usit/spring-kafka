@@ -8,8 +8,8 @@ import org.springframework.kafka.config.TopicBuilder;
 
 @Configuration
 public class TopicConfig {
-
-	@Value("${kafka.topic.name}")
+	
+	@Value("${topic.name}")
 	private String topicName;
 	
 	@Bean
